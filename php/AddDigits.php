@@ -11,6 +11,6 @@ class AddDigits
         return $this->addDigits(array_sum($arr));
     }
 }
-$obj = new Solution;
+$obj = new AddDigits;
 $res = $obj->addDigits(38);
 var_dump($res);
